@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>testsida</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="index-style.css" />
+
+
+</head>
+
+
+
+
+<body>
+
+  <header>
+
+    <img id="logga" src="loga.jpg" alt="HTML logga" />
+
+  </header>
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html" >Start</a>
+    <a href="boka.html" class="active">Boka</a>
+    <a href="hitta.html" >Hitta</a>
+    <a href="kontakta.html">Kontakta</a>
+  </nav>
+  <section>
+
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Förnamn</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Ditt förnamn...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Efternamn</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Ditt efterman...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="telephone">Telenr</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="telephone" name="telephone" placeholder="Ditt telefonnummer...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="email" name="email" placeholder="Din epost...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Rumstyp</label>
+          </div>
+          <div class="col-75">
+            <select id="typeroom" name="typeroom">
+            <option value="enkel">Enkelrum</option>
+            <option value="dubbel">Dubbelrum</option>
+            <option value="suit">Suit</option>
+          </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Övrigt</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Övrig info..." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+
+  </section>
+  <aside>
+
+
+  </aside>
+
+
+  <footer>
+    <p>Hotell OceanHill | El Suculum 1 | 123 45 Santa Cruez | 012 - 12 34 56</p>
+  </footer>
+
+
+</body>
+
+</html>
